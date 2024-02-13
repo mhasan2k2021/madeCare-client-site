@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import "./Appointment.css";
 import { AuthProvider } from "../../Context/AuthContexts";
 import { useLoaderData, useNavigate } from "react-router-dom";
+import axios from "axios";
 
 const Appointment = () => {
   const { user } = useContext(AuthProvider);
@@ -34,20 +35,31 @@ const Appointment = () => {
       age,
     };
     if (department !== "0" && doctor !== "0") {
-      fetch("https://made-care-server.vercel.app/appointment", {
-        method: "POST",
-        headers: {
-          "content-type": "application/json",
-        },
-        body: JSON.stringify(patient_appointment),
-      })
-        .then((res) => res.json())
-        .then((data) => {
-          console.log(data);
+      axios
+        .post(
+          "https://made-care-server.vercel.app/appointment",
+          patient_appointment
+        )
+        .then((res) => {
+          console.log(res.data);
           alert("successfully requested for appointment.  Thank you.");
           form.reset();
           navigate("/my-appointment");
         });
+      // fetch("https://made-care-server.vercel.app/appointment", {
+      //   method: "POST",
+      //   headers: {
+      //     "content-type": "application/json",
+      //   },
+      //   body: JSON.stringify(patient_appointment),
+      // })
+      //   .then((res) => res.json())
+      //   .then((data) => {
+      //     console.log(data);
+      //     alert("successfully requested for appointment.  Thank you.");
+      //     form.reset();
+      //     navigate("/my-appointment");
+      //   });
     } else {
       setError(true);
       console.log(error);

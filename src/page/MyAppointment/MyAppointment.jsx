@@ -12,16 +12,14 @@ const MyAppointment = () => {
   useEffect(() => {
     axios
       .get(
-        `https://made-care-server.vercel.app/my-appointment?email=${user?.email}`,
-        {
-          withCredentials: true,
-        }
+        `https://made-care-server.vercel.app/my-appointment?email=${user?.email}`
       )
       .then((res) => {
         setAppointments(res.data);
       });
     //
   }, []);
+  console.log(appointments);
 
   const handleDelete = (id) => {
     const deleteConfirm = confirm("Are you sure to delete?");
