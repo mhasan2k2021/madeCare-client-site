@@ -1,0 +1,38 @@
+[
+  {
+    "category_id": 1,
+    "img": "https://res.cloudinary.com/dcmgay3nl/image/upload/v1705167639/madeCare/services/3311c474fe_teni5j.jpg",
+    "heading": "General Hospital",
+    "details": "A comprehensive medical facility providing a wide range of healthcare services."
+  },
+  {
+    "category_id": 2,
+    "img": "hospital2.jpg",
+    "heading": "Cardiology Center",
+    "details": "Specialized in the diagnosis and treatment of heart-related conditions."
+  },
+  {
+    "category_id": 3,
+    "img": "hospital3.jpg",
+    "heading": "Pediatric Care Center",
+    "details": "Dedicated to the health and well-being of children, offering pediatric services."
+  },
+  {
+    "category_id": 4,
+    "img": "hospital4.jpg",
+    "heading": "https://res.cloudinary.com/dcmgay3nl/image/upload/v1705167663/madeCare/services/20a4b7f205_vi0gp6.jpg",
+    "details": "Focused on the diagnosis and treatment of musculoskeletal disorders and injuries."
+  },
+  {
+    "category_id": 5,
+    "img": "https://res.cloudinary.com/dcmgay3nl/image/upload/v1705167657/madeCare/services/cf4a86a5e3_o4k3gy.jpg",
+    "heading": "Women's Health Center",
+    "details": "Providing specialized care for women's health issues and reproductive health services."
+  },
+  {
+    "category_id": 6,
+    "img": "hospital6.jpg",
+    "heading": "Mental Health Institute",
+    "details": "Dedicated to the diagnosis and treatment of mental health disorders and psychological well-being."
+  }
+]

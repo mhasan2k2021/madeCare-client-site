@@ -1,0 +1,53 @@
+.slider_card {
+  height: 400px;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.card:hover {
+  box-shadow: -1px 0px 7px 7px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: -1px 0px 7px 7px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: -1px 0px 7px 7px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
+}
+
+.card .card_img_container {
+  width: 100%;
+  height: 240px;
+  background-color: brown;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card_img_container img {
+  min-width: 100%;
+  height: 240px;
+}
+
+.card_details {
+  margin-top: 20px;
+}
+.card_details h3 {
+  font-size: 18px;
+  font-family: var(--font-family);
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card_details p {
+  font-size: 12px;
+  font-family: var(--font-family);
+  color: #000;
+  font-weight: 400;
+  line-height: 14px;
+}

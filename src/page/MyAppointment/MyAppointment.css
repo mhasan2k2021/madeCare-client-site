@@ -1,0 +1,127 @@
+.my_appointment {
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  background-color: #f2efe5;
+}
+
+.my_appointment_table {
+  width: 90%;
+}
+
+.my_appointment_table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.my_appointment_table table thead tr {
+  background-color: #fff;
+  height: 50px;
+}
+.my_appointment_table table thead tr th:nth-child(1) {
+  width: 12%;
+}
+.my_appointment_table table thead tr th:nth-child(2) {
+  width: 20%;
+}
+.my_appointment_table table thead tr th:nth-child(3) {
+  width: 20%;
+}
+.my_appointment_table table thead tr th:nth-child(4) {
+  width: 18%;
+}
+.my_appointment_table table thead tr th:nth-child(7) {
+  width: 10%;
+}
+.my_appointment_table tbody tr:nth-child(even) {
+  background-color: #fff;
+}
+.my_appointment_table tbody tr:nth-child(odd) {
+  background-color: #d3d2d2;
+}
+.my_appointment_table table tbody tr {
+  width: 100%;
+  height: 80px;
+}
+
+.my_appointment_table table tbody tr td:nth-child(1) {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my_appointment_table table tbody tr td:nth-child(7) {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+}
+
+.user_img_container {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(148, 148, 148);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.user_img {
+  width: 40px;
+  object-fit: cover;
+}
+
+.user_icon {
+  width: 25px;
+  color: #fff;
+}
+
+.about h6 {
+  font-size: 16px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.about p {
+  font-size: 14px;
+  font-family: var(--font-family);
+  font-weight: 300;
+}
+
+.dta p {
+  font-size: 14px;
+  font-family: var(--font-family);
+  font-weight: 300;
+  text-align: center;
+}
+
+.status {
+  font-size: 16px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  text-align: center;
+}
+
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+
+.delete_btn {
+  background: transparent;
+  border: none;
+  width: 18px;
+  cursor: pointer;
+}
+
+.edit_btn {
+  width: 16px;
+  cursor: pointer;
+}

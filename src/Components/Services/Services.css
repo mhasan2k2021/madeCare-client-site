@@ -1,0 +1,70 @@
+.services_container_section {
+  width: 100%;
+  min-height: 100vh;
+
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    url("https://res.cloudinary.com/dcmgay3nl/image/upload/v1704977678/madeCare/doctor-image/sl_021921_40900_01_Converted_gjizcd.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 100px;
+  background-color: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.8) 100%
+  );
+}
+
+.services_heading_container {
+  width: 100%;
+  text-align: center;
+  opacity: 1;
+  z-index: 2;
+  margin-bottom: 20px;
+}
+
+.services_heading_container h4 {
+  color: var(--main-color);
+  font-family: var(--font-family);
+  font-size: 18px;
+  color: var(--main-color);
+  height: 18px;
+  border-left: 2px solid var(--main-color);
+  width: fit-content;
+  margin: 10px auto;
+  line-height: 18px;
+  padding-left: 15px;
+}
+
+.services_heading_container h2 {
+  font-size: 44px;
+  font-family: var(--font-family);
+  font-weight: 600;
+}
+
+.service_slider_container {
+  height: 400px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .services_container_section {
+    padding: 30px;
+  }
+  .services_heading_container h4 {
+    font-size: 15px;
+    height: 15px;
+  }
+  .services_heading_container h2 {
+    font-size: 30px;
+  }
+  .services_heading_container {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}

@@ -1,0 +1,147 @@
+.appointment_container_page {
+  width: 100%;
+  height: 80vh;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.appointment_grid {
+  width: 900px;
+  height: 450px;
+  background-color: aqua;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 159, 255, 0.8) 0%,
+      rgba(0, 159, 255, 0.6) 100%
+    ),
+    url("https://res.cloudinary.com/dcmgay3nl/image/upload/v1705489012/madeCare/appointment/0607db91e7_wjp2dq.jpg");
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  border-radius: 8px;
+}
+
+.form_container {
+  padding: 50px;
+}
+
+.form_heading h3 {
+  font-family: var(--font-family);
+  font-size: 18px;
+  color: #fff;
+  height: 18px;
+  line-height: 18px;
+  border-left: 2px solid #fff;
+  padding-left: 15px;
+  margin-bottom: 12px;
+}
+
+.form_heading h2 {
+  font-family: var(--font-family);
+  font-size: 34px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.form_container form {
+  width: 100%;
+  height: 250px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.name {
+  cursor: not-allowed;
+}
+
+.appointment_form input,
+select {
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 0 12px;
+  border-radius: 8px;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.appointment_form select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23131313%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.7rem top 50%;
+  background-size: 0.4rem auto;
+  transition: 0.3s;
+}
+
+.appointment_form button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.appointment_form button:hover {
+  color: var(--secondary-color);
+  background-color: #fff;
+}
+
+.img_container {
+  width: 100%;
+  height: 450px;
+}
+
+.img_container img {
+  width: 350px;
+  height: inherit;
+}
+
+@media screen and (max-width: 768px) {
+  .appointment_container_page {
+    padding-top: 30px;
+    height: 110vh;
+  }
+  .appointment_grid {
+    grid-template-columns: 1fr;
+    margin: 40px;
+  }
+  .img_container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .form_container form {
+    grid-template-columns: 1fr;
+  }
+  .appointment_grid {
+    height: 550px;
+  }
+  .appointment_container_page {
+    min-height: 140vh;
+    padding-top: 60px;
+  }
+  .form_heading h2 {
+    font-size: 18px;
+  }
+  .appointment_form select {
+    padding-right: 10px;
+    appearance: none;
+  }
+}

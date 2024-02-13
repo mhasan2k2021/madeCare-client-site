@@ -1,0 +1,27 @@
+[
+  {
+    "faq_id": 1,
+    "faq": "What Happens To My Sample Once I Have Provided It?",
+    "answer": "Once you provide your sample, it is securely transported to our state-of-the-art laboratory facilities. Our highly trained professionals use innovative technology to conduct thorough testing, ensuring accurate and reliable results."
+  },
+  {
+    "faq_id": 2,
+    "faq": "Where Can I Go To Provide A Sample For Testing?",
+    "answer": "You can visit any of our designated sample collection centers for providing your sample. These centers are conveniently located and equipped to make the process quick and comfortable for you."
+  },
+  {
+    "faq_id": 3,
+    "faq": "What Will Laboratory Testing Cost Me?",
+    "answer": "The cost of laboratory testing may vary depending on the type of tests required. We strive to provide transparent pricing, and you can inquire about the specific costs associated with your testing needs at the sample collection center or through our customer service."
+  },
+  {
+    "faq_id": 4,
+    "faq": "Can I Make Appointments by Phone?",
+    "answer": "Yes, you can easily make appointments for sample collection by phone. Our friendly and knowledgeable staff will assist you in scheduling a convenient time for you to visit the sample collection center."
+  },
+  {
+    "faq_id": 5,
+    "faq": "Using Innovative Technology",
+    "answer": "We pride ourselves on using cutting-edge technology in our laboratory processes. Our commitment to innovation ensures the accuracy and efficiency of the testing procedures, providing you with high-quality and reliable results."
+  }
+]
